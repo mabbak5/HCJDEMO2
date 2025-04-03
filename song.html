@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Song</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="nav">
+          <li><a href="index.html">Index</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="song.html">Song</a></li>
+          <li><a href="video.html">Video</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="audio-container">
+      <img src="Run.jpg" alt="앨범 표지" width="500" style="margin-top: 20px" />
+      <audio id="music" src="run.mp3"></audio>
+      <button id="playButton">▶️</button>
+    </div>
+    <script>
+      document
+        .getElementById('playButton')
+        .addEventListener('click', function () {
+          const music = document.getElementById('music')
+          if (music.paused) {
+            music.play()
+            this.textContent = '⏸️'
+          } else {
+            music.pause()
+            this.textContent = '▶️'
+          }
+        })
+    </script>
+    <p>*버튼을 누르면 음악이 재생됩니다*</p>
+  </body>
+</html>

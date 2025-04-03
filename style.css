@@ -1,0 +1,77 @@
+.navbar {
+  background-color: rgb(99, 161, 205);
+  height: 85px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar .nav li {
+  padding: 10px 15px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar {
+  background-color: rgb(99, 161, 205);
+  height: 85px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
+}
+.title {
+  text-align: center;
+}
+.main .container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50;
+}
+#playButton {
+  font-size: 30px !important;
+  padding: 30px !important;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 150%;
+}
+.audio-container img {
+  border: 5px solid black;
+}
